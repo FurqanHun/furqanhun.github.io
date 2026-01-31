@@ -2,9 +2,39 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <title>FurqanHun | Landing Page</title>
+        <title>FurqanHun | Developer Hub</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <!-- Link to your portfolio's CSS for consistent styling -->
+
+        <meta
+            name="description"
+            content="The central hub for FurqanHun's open source projects, Fedora COPR packages, portfolio, and the home of mpv-music."
+        />
+        <meta
+            name="keywords"
+            content="FurqanHun, open source, developer, Fedora, COPR, mpv-music, software engineer, portfolio, linux, bash, rust"
+        />
+        <link rel="canonical" href="https://furqanhun.github.io/" />
+
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "ProfilePage",
+                "mainEntity": {
+                    "@type": "Person",
+                    "name": "FurqanHun",
+                    "alternateName": "furqanhun",
+                    "url": "https://furqanhun.github.io/",
+                    "image": "https://avatars.githubusercontent.com/u/0?v=4",
+                    "sameAs": [
+                        "https://github.com/FurqanHun",
+                        "https://copr.fedorainfracloud.org/coprs/furqanhun/"
+                    ],
+                    "jobTitle": "Software Engineer",
+                    "description": "Open Source enthusiast, Fedora packager, and creator of mpv-music."
+                }
+            }
+        </script>
+
         <link rel="stylesheet" href="./src/output.css" />
     </head>
     <body
